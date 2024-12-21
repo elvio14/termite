@@ -21,7 +21,7 @@ behave() is called every frame in Game::update(), it alters the position of the 
 - Checking each light, starting from the closest, if there is a wall between it and the termite's position.
 - Avoiding collision with the wall using Set Axis Theorem projections. - Fly towards a light source, or stay within the current light zone, or fly around current position according to results of the previous algorithms.
 
-<img class="mobileWid" src="/assets/wallbetween.png" alt="wallbetween diagram">
+<img class="mobileWid" src="https://res.cloudinary.com/dy6sxilvq/image/upload/v1734803933/wallbetween_irjkhw.png" alt="wallbetween diagram">
 The isWallBetween() function compares the angles of the path to the light and to each corner with the largest angle between two corner points of the wall, all in respect to the termite position.
 
 [Lamp]
