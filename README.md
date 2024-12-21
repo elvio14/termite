@@ -1,3 +1,5 @@
+<img src="https://res.cloudinary.com/dy6sxilvq/image/upload/v1734804010/TERMITE_DEMO_qxa1kt.gif" alt="termite demo gif">
+
 This simulation is created purely in C++ and SFML for rendering. No physics or game engine were used.
 
 Each termites are flying around following and algorithm with two simple rules:
